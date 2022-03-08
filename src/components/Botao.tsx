@@ -4,7 +4,7 @@ interface BotaoProps {
    cor?: 'green' | 'blue' | 'gray' | 'red'
    className?: string
    children: any
-   onClick?: () => void
+   onClick?: (p: any) => void
 }
 
 export default function Botao(props: BotaoProps) {
